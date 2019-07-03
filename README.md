@@ -35,7 +35,7 @@ Só temos um pedido: encare este projeto como algo que você encontraria em seu 
 
 ## Submissão
 
-- Criar um repositório privado com o nome `dev-android-vortigo` no Gitlab, compartilhando-o com o usuário @douglas.amengual (com permissão Developer).
+- Criar um repositório privado com o nome `dev-android` no Gitlab, compartilhando-o com o usuário @douglas.amengual (com permissão Developer).
 
 ## Contato
 
