@@ -1,4 +1,4 @@
-# Vortigo - Teste prático - Desenvolvedor Android
+# Teste prático - Desenvolvedor Android
 
 Parabéns! Você chegou até o nosso teste para desenvolvedores Android! 
 Realizamos este teste para avaliarmos o seu nível de conhecimento em tecnologias e desafios que você virá a encontrar caso faça parte da nossa equipe.
