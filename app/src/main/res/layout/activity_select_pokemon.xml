@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.challenge.pokemonapp.ui.trainer.RegisterTrainerActivity"
+        android:background="@drawable/bg">
+
+    <ImageView
+        android:id="@+id/imgOrder"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="@dimen/margin_16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="@dimen/margin_32dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/ic_arrow_back" />
+
+    <TextView
+            android:id="@+id/textTitle"
+            style="@style/textWhiteBig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="@dimen/margin_32dp"
+            android:layout_marginRight="@dimen/margin_32dp"
+            android:layout_below="@+id/imgOrder"
+            android:text="@string/msg_select_gretting"/>
+
+    <TextView
+            android:id="@+id/textTypePokemon"
+            style="@style/textWhiteMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_32dp"
+            android:layout_marginRight="@dimen/margin_32dp"
+            android:layout_centerVertical="true"
+            android:text="@string/msg_select_favorite"/>
+
+    <Spinner
+            android:id="@+id/spinnerTypes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_32dp"
+            android:layout_marginLeft="@dimen/margin_32dp"
+            android:layout_marginRight="@dimen/margin_32dp"
+            android:labelFor="@+id/textTypePokemon"
+            android:layout_below="@+id/textTypePokemon"
+            android:backgroundTint="@color/colorWhite" android:clipChildren="false"
+            android:addStatesFromChildren="false"/>
+
+    <ImageView
+            android:id="@+id/imgGoToMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/margin_16dp"
+            android:background="@drawable/next"
+            android:contentDescription="@string/app_name"/>
+
+    <include android:id="@+id/progressBar" layout="@layout/progress_view"/>
+
+</RelativeLayout>
