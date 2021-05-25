@@ -1,0 +1,70 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BaseAppTheme" parent="AppTheme" />
+
+    <style name="AppTheme.ActionBar" parent="Widget.AppCompat.Light.SearchView">
+        <item name="searchViewStyle">@style/searchView</item>
+    </style>
+
+    <style name="searchView" parent="Widget.AppCompat.Light.SearchView">
+        <item name="closeIcon">@drawable/ic_outline_cancel</item>
+        <item name="searchIcon">@drawable/ic_round_search</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="queryBackground">@color/colorWhite</item>
+        <item name="submitBackground">@color/colorWhite</item>
+        <item name="searchHintIcon">@drawable/ic_round_search_black</item>
+        <item name="titleTextColor">@color/colorWhite</item>
+    </style>
+
+    <!--Style TextView-->
+    <style name="textWhiteBold">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/text_size_16</item>
+    </style>
+
+    <style name="textWhiteBig">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_26</item>
+    </style>
+
+    <style name="textWhiteMedium">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_22</item>
+    </style>
+
+    <!--Style EditText-->
+    <style name="edtStyle" parent="Widget.AppCompat.EditText">
+        <item name="colorControlNormal">@color/colorWhite</item>
+        <item name="colorControlActivated">@color/colorWhite</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="colorControlHighlight">@color/colorWhite</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">@dimen/text_size_22</item>
+    </style>
+
+    <!--Style Button-->
+    <style name="buttonMain">
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat</item>
+        <item name="android:textSize">@dimen/text_size_22</item>
+        <item name="android:background">@drawable/button_pink_piano</item>
+    </style>
+
+    <!--Style Spinner-->
+    <style name="spinnerPokemonType" parent="Base.Widget.AppCompat.Spinner">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/spinner</item>
+        <item name="android:paddingTop">@dimen/padding_8dp</item>
+        <item name="android:paddingBottom">@dimen/padding_8dp</item>
+    </style>
+
+</resources>

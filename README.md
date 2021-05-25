@@ -1,31 +1,10 @@
 # Vortigo - Teste prático - Desenvolvedor Android
 
-Parabéns! Você chegou até o nosso teste para desenvolvedores Android! 
-Realizamos este teste para avaliarmos o seu nível de conhecimento em tecnologias e desafios que você virá a encontrar caso faça parte da nossa equipe.
-Para isso, preparamos um teste prático de rápido desenvolvimento, mas que é mais do que suficiente para nos introduzir a quem você é escrevendo código: sua organização de projeto, formatação, arquitetura e conceitos de desenvolvimento Android. 🤘  
-
-
 ## Referência de design
 
 Vamos usar como referência o design do nosso novo App.
 
 ![Referência de design](https://vortigo.blob.core.windows.net/files/pokemon/assets/layout.png)  
-
-## Endpoints
-
-Queremos conhecer seu código de networking mas não vamos acessar uma API diretamente (também por motivos de praticidade). Pensando nisso, estamos disponibilizando via Microsoft Azure dois JSONs contendo os dados que serão necessários para renderizar todas as necessidades deste desenvolvimento.
-
-**Tipos de Pokémon**
-
-[https://vortigo.blob.core.windows.net/files/pokemon/data/types.json](https://vortigo.blob.core.windows.net/files/pokemon/data/types.json)  
-
-**Pokémons**
-
-[https://vortigo.blob.core.windows.net/files/pokemon/data/pokemons.json](https://vortigo.blob.core.windows.net/files/pokemon/data/pokemons.json)
-
-## Recursos
-
-O design é apenas uma referência, mas é desejável que se atinja o máximo de aderência possível à especificação. Por isso, também vamos disponibilizar as [imagens](https://vortigo.blob.core.windows.net/files/pokemon/assets/images.zip) usadas na referência, já com os tamanhos para renderização correta nas diferentes densidades de tela.
 
 ## Requisitos
 
@@ -33,10 +12,16 @@ O app que esperamos ver ao final do processo consiste basicamente em um cadastro
 
 Só temos um pedido: encare este projeto como algo que você encontraria em seu dia-a-dia profissional, ou como um projeto de estimação. Em outras palavras, queremos que você sinta prazer programando e que você se dedique ao projeto como se fosse seu. O resto é por sua conta 😬
 
-## Submissão
+## Tecnologias Utilizadas
 
-- Criar um repositório privado com o nome `dev-android-vortigo` no Gitlab, compartilhando-o com o usuário @douglas.amengual (com permissão Developer).
-
-## Contato
-
-Buscamos o máximo de clareza possível ao documentar o exercício, e esperamos que todas as dúvidas possam ser solucionadas com este `README`. Mas as dúvidas virão, e estamos prontos! Fique à vontade para entrar em contato conosco através do endereço [douglas.amengual@vortigo.com.br](mailto:douglas.amengual@vortigo.com.br) para tirar dúvidas e pedir ajuda. Pedimos apenas que as dúvidas sejam pertinentes ao exercício, para que possamos dar toda a atenção necessária a todos os candidatos.  
+- SharedPreferences
+- RecyclerView
+- RxJava and RxAndroid
+- Realm
+- Kotlin-Realm
+- Timber
+- Glide
+- Dagger 2
+- Testes unitários com JUnit e Mockito
+- Espresso
+ 
